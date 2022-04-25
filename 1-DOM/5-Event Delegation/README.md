@@ -29,4 +29,4 @@ document.addEventListener('click', function(event) {
 
 ### Resources:
 
-- []()
+- [A Simple Explanation of Event Delegation in JavaScript](https://dmitripavlutin.com/javascript-event-delegation/)
