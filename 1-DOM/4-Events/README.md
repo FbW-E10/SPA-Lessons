@@ -2,6 +2,15 @@
 
 - User Events (interaction) and Browser Events.
 
+---
+
+## Assignments:
+
+**Assignment:** []()
+**Solution:** []()
+
+---
+
 ### Resources:
 
 - []()

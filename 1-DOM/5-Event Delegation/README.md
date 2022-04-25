@@ -2,6 +2,15 @@
 
 - Event Delegation.
 
+---
+
+## Assignments:
+
+**Assignment:** []()
+**Solution:** []()
+
+---
+
 ### Resources:
 
 - []()
