@@ -7,10 +7,10 @@
 ## Assignments:
 
 **Assignment:** [Browser-DOM-window](https://classroom.github.com/a/rSZFh6mZ)
-**Solution:** [Browser-DOM-window]()
+**Solution:** [Browser-DOM-window](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-DOM-window-solution)
 
 **Assignment:** [Browser-DOM-querying](https://classroom.github.com/a/QIcG3XwR)
-**Solution:** [Browser-DOM-querying]()
+**Solution:** [Browser-DOM-querying](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-DOM-querying-solution)
 
 ---
 
