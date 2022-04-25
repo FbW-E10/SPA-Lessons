@@ -55,6 +55,6 @@ contact.appendChild(pTag);    // appending it to a parent element 'contact' (the
 
 //6) Manipulating the classList of an element (add,remove,replace):
 
-contact.classList.add('dark');
+contact.classList.add('dark'); // adds a class called 'dark' to the element 'contact' this class has a style in the file style.css
 
 
