@@ -1,0 +1,21 @@
+#about{
+    background-color: brown;
+}
+
+.contactBox{
+    color: chartreuse;
+}
+
+.menuBtn{
+    font-size: 40px;
+}
+
+.dark{
+    background-color: #000;
+    color: #fff;
+}
+
+.light{
+    background-color: #fff;
+    color: #000;
+}
