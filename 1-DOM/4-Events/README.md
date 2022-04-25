@@ -41,11 +41,33 @@ Targeting an HTML element that is included within another element will also targ
 
 ## Assignments:
 
-**Assignment:** []()
+**Assignment:** [Browser-WeekendCountdown](https://classroom.github.com/a/UEdWu0X_)
+**Solution:** []()
+
+**Assignment:** [Browser-ToggleItems](https://classroom.github.com/a/Wg0iL7aC)
+**Solution:** []()
+
+**Assignment:** [Browser-Calculator](https://classroom.github.com/a/-4EabhGP)
 **Solution:** []()
 
 ---
 
 ### Resources:
 
-- []()
+- [Learn JavaScript Event Listeners (video)](https://www.youtube.com/watch?v=XF1_MlZ5l6M)
+
+- [Date Global Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [toLocaleDateString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
+- [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+- [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+
+- [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
+
+- [HTML DOM Element contains](https://www.w3schools.com/jsref/met_node_contains.asp)
+
+- [use Bootstrap CDN](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+
+- [Window: load event](https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event)
+
+- [Event.stopPropagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
