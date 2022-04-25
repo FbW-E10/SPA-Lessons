@@ -1,4 +1,4 @@
-# Asynchronous Programming
+# Asynchronous Programming 4 Days
 
 1.  JSON and localStorage.
 2.  Non-Blocking Promises.
