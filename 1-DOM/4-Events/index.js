@@ -5,3 +5,4 @@
 // The event object contains a number of properties that describe the event which occurred
 
 // ===============================================================================================
+//####### select the elements ##########
