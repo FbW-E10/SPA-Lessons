@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+
+header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.contactBox {
+  color: chartreuse;
+}
+
+.menuBtn {
+  font-size: 40px;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #000;
+}
