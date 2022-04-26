@@ -22,8 +22,17 @@ document.addEventListener('click', function(event) {
 
 ## Assignments:
 
-**Assignment:** []()
-**Solution:** []()
+**Assignment:** [Browser-PasswordField](https://classroom.github.com/a/joFHem1F)
+**Solution:** [Browser-PasswordField]()
+
+**Assignment:** [DOM-hideMessagesWithDelegation](https://classroom.github.com/a/DWWYScY4)
+**Solution:** [DOM-hideMessagesWithDelegation]()
+
+**Assignment:** [Browser-DynamicPills](https://classroom.github.com/a/uVGdYG2t)
+**Solution:** [Browser-DynamicPills]()
+
+**Assignment:** [Browser-Dropdown (Bonus)](https://classroom.github.com/a/kh-lY8qX)
+**Solution:** [Browser-Dropdown (Bonus)]()
 
 ---
 
