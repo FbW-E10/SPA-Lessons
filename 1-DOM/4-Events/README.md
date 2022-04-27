@@ -42,13 +42,13 @@ Targeting an HTML element that is included within another element will also targ
 ## Assignments:
 
 **Assignment:** [Browser-WeekendCountdown](https://classroom.github.com/a/UEdWu0X_)
-**Solution:** []()
+**Solution:** [Browser-WeekendCountdown](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-WeekendCountdown)
 
 **Assignment:** [Browser-ToggleItems](https://classroom.github.com/a/Wg0iL7aC)
-**Solution:** []()
+**Solution:** [Browser-ToggleItems](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-ToggleItems)
 
 **Assignment:** [Browser-Calculator](https://classroom.github.com/a/-4EabhGP)
-**Solution:** []()
+**Solution:** [Browser-Calculator](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-Calculator)
 
 ---
 
