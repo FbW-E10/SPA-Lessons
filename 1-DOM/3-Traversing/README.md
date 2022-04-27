@@ -16,4 +16,4 @@
 
 ### Resources:
 
-- []()
+- [How To Use CSS Hex Code Colors with Alpha Values](https://www.digitalocean.com/community/tutorials/css-hex-code-colors-alpha-values)
