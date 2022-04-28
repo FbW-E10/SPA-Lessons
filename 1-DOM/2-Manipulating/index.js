@@ -27,7 +27,7 @@ let contact = document.querySelector("#contact");  // querySelector returns a si
 
 let btn = document.querySelector(".menuBtn"); // when a 'class' is passed as an argument, it will select the first recurring element with this class (same thing if a 'tag'(the element name) is passed).
 
-let menuBtn = document.querySelectorAll(".menuBtn"); // querySelectorAll returns a NodeList which is an ARRAY of objects of the selected elements.
+let menuBtn = document.querySelectorAll(".menuBtn"); // querySelectorAll returns a NodeList which is NOT an ARRAY (PS: you can use forEach on it but for other array methods you still need to convert it to an array).
 //======================================================================================================================
 
 //4) Manipulating the previously selected elements (about, spanArr, contact, btn, menuBtn):
@@ -38,7 +38,7 @@ about.style = "background-color: rgb(111,222,222)";  // adding a style to the ab
 // contact.textContent="hello from js";   // this will replace the content of the 'contact' element to the assigned string.
 
 
-menuBtn.forEach((item) => {        // using the array method forEach on the array menuBtn to add style to each of its items.
+menuBtn.forEach((item) => {        // using the array method forEach on the nodeList menuBtn to add style to each of its items.
     item.style = "background-color: rgb(111,222,222)";
   //   item.innerText = "something";  // this will replace the content of each item to the assigned string.
   });
@@ -53,8 +53,7 @@ pTag.textContent = "hello from js";      // filling it with the string 'hello fr
 contact.appendChild(pTag);    // appending it to a parent element 'contact' (the parent element must be selected first -line 26-).
 //===========================================================================================================================
 
-//6) Manipulating the classList of an element (add,remove,replace):
+//6) Manipulating the classList of an element (add,remove...):
 
 contact.classList.add('dark'); // adds a class called 'dark' to the element 'contact' this class has a style in the file style.css
-
 
