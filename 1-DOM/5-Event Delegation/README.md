@@ -23,16 +23,16 @@ document.addEventListener('click', function(event) {
 ## Assignments:
 
 **Assignment:** [Browser-PasswordField](https://classroom.github.com/a/joFHem1F)
-**Solution:** [Browser-PasswordField]()
+**Solution:** [Browser-PasswordField](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-PasswordField-solution)
 
 **Assignment:** [DOM-hideMessagesWithDelegation](https://classroom.github.com/a/DWWYScY4)
-**Solution:** [DOM-hideMessagesWithDelegation]()
+**Solution:** [DOM-hideMessagesWithDelegation](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/DOM-hideMessagesWithDelegation-solution)
 
 **Assignment:** [Browser-DynamicPills](https://classroom.github.com/a/uVGdYG2t)
-**Solution:** [Browser-DynamicPills]()
+**Solution:** [Browser-DynamicPills](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-DynamicPills-solution)
 
 **Assignment:** [Browser-Dropdown (Bonus)](https://classroom.github.com/a/kh-lY8qX)
-**Solution:** [Browser-Dropdown (Bonus)]()
+**Solution:** [Browser-Dropdown (Bonus)](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/1-DOM/Browser-Dropdown-solution)
 
 ---
 
