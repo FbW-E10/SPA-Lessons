@@ -39,3 +39,7 @@ document.addEventListener('click', function(event) {
 ### Resources:
 
 - [A Simple Explanation of Event Delegation in JavaScript](https://dmitripavlutin.com/javascript-event-delegation/)
+
+- [Element.append()](https://developer.mozilla.org/en-US/docs/Web/API/Element/append)
+
+- [Element.prepend()](https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend)
