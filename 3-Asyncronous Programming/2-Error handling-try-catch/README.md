@@ -62,7 +62,7 @@ try {
 }
 ```
 
-## For all built-in errors, the error object has two main properties: `name` `message`
+For all built-in errors, the error object has two main properties: `name` `message`
 
 ---
 
