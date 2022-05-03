@@ -1,5 +1,7 @@
 # PROMISES
 
+![enter image description here](https://www.alexlintu.com/content/images/2021/04/Group-74.png)
+
 Imagine if we want to run one asynchronous operation, and then another once the first is finished...
 ... and then a third when the second is finished...
 ... and so on!
@@ -74,8 +76,6 @@ console.log("Important function");
 
 ---
 
-### Live-Coding Examples:
-
 ```JS
 // Promises can be really useful here...
 // Function: "Hi JS, I *promise* you that if you wait for me to resolve, you will get something you can use"
@@ -96,27 +96,23 @@ const getDataSuccessfully = () => {
         }, 5000)
     })
 
-    // Return the result of the Promise once it has resolved (and not before!)
+    // Return the result of the Promise once it has resolved or rejected (and not before!)
     return promise;
 }
 
-const useDataSuccessfully = () => {
-    // Execute the getDataSuccessfully() function
-    getDataSuccessfully()
-    // THEN, when it is finished, use the data it returns in your JS
-    // Note, now we are waiting for the data to be ready, not trying to use it too early!
-    .then(data => {
-        let returnedData2 = data;
-        //                                        "Lots of data"
-        //                                              ^
-        console.log("Data returned from server:", returnedData2);
-    });
-}
-
-// Call useDataSuccessfully()
-useDataSuccessfully();
+// Execute the getDataSuccessfully() function
+const promise = getDataSuccessfully();
+// THEN, when it is finished, use the data it returns in your JS
+// Note, now we are waiting for the data to be ready, not trying to use it too early!
+promise
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log("Error: ", error);
+  });
 // Note that this is not blocked by JS, as the browser is given the setTimeout function to handle, not JS
-console.log("Important function");
+
 ```
 
 ```JS
@@ -136,16 +132,16 @@ function amazonPromise(){
     })
 }
 
-const promise = amazonPromise();
+const promise_1 = amazonPromise();
 
-promise.then((msg)=>{
+promise_1.then((msg)=>{
     console.log(msg);
 });
-promise.catch((msg)=>{
+promise_1.catch((msg)=>{
     console.log(msg);
 });
 
-console.log(promise);
+console.log(promise_1);
 ```
 
 ---
@@ -154,6 +150,9 @@ console.log(promise);
 
 **Assignment:** [Browser-fetch-promises](https://classroom.github.com/a/paCIKHff)
 **Solution:** [Browser-fetch-promises]()
+
+**Assignment:** [DOM-GuessColorApp (optional)](https://classroom.github.com/a/G5tWXLKw)
+**Solution:** [DOM-GuessColorApp]()
 
 ---
 
