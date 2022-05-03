@@ -5,10 +5,10 @@
 ## Assignments:
 
 **Assignment:** [Module Basics-ex1](https://classroom.github.com/a/GmHOyOjj)
-**Solution:** []()
+**Solution:** [](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/2-Modules/ex1-solution)
 
 **Assignment:** [Browser Modules-ex2](https://classroom.github.com/a/MwHoQk4b)
-**Solution:** []()
+**Solution:** [](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/2-Modules/ex2-solution)
 ---
 
 ### Resources:
