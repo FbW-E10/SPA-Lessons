@@ -96,7 +96,7 @@ const getDataSuccessfully = () => {
         }, 5000)
     })
 
-    // Return the result of the Promise once it has resolved (and not before!)
+    // Return the result of the Promise once it has resolved or rejected (and not before!)
     return promise;
 }
 
