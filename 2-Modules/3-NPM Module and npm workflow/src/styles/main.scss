@@ -1,0 +1,24 @@
+// This is where your styles can go :)
+// the existing styles are just a placeholder, feel free to delete :)
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  animation: rota 10s infinite linear;
+}
+
+@keyframes rota {
+  0% { transform:rotate(15deg) }
+  50% { transform:rotate(-15deg) }
+  100% { transform:rotate(15deg) }
+}
