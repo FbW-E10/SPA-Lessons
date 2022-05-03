@@ -16,3 +16,5 @@ In general JavaScript is running code in a non-blocking way. This means that cod
 ### Resources:
 
 - [Async Programming With JavaScript — Callbacks, Promises and Async / Await](https://medium.com/codingthesmartway-com-blog/async-programming-with-javascript-callbacks-promises-and-async-await-980e3f144185)
+
+- [fetch() method](https://javascript.info/fetch)
