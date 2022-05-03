@@ -1,15 +1,25 @@
 # Error handling, "try...catch"
 
-![enter image description here](https://blog.alexdevero.com/wp-content/uploads/2020/05/18-05-20-error-handling-in-javascript-blog.jpg)
+![enter image description here](https://www.tutsmake.com/wp-content/uploads/2020/05/try-catch-javascript.jpeg)
 
 The **`try...catch`** statement marks a block of statements to try
 
 ```javascript
+//With try...catch
 try {
   // code...
-} catch (err) {
+} catch (error) {
   // error handling
 }
+
+//With then().catch()
+
+.then(()=>{
+    // code...
+}).catch((error)=>{
+    // error handling
+})
+
 ```
 
 The `try` statement lets you test a block of code for errors.
@@ -34,22 +44,6 @@ try {
   alert("Catch is ignored, because there are no errors"); // (3)
 }
 ```
-
-but in this example catch is working :
-
-```javascript
-try {
-  alert("Start of try runs"); // (1) <--
-
-  getData(); // error, getData function is not defined!
-
-  alert("End of try (never reached)"); // (2)
-} catch (err) {
-  alert(`Error has occurred!`); // (3) <--
-}
-```
-
-> `try...catch` only works for runtime errors
 
 ## Error object
 
@@ -98,32 +92,45 @@ We can now use the second keyword: "await".
 We put this keyword in front of any promise...
 
 ```JS
-let error = false
-const returnAPromise = () => {
-let promise = new Promise((resolve,reject) => {
-setTimeout(() => {
-    if(!error){
-resolve("Timer finished after 5 seconds")
+const blackFriday = true;
+
+function amazonPromise() {
+  return new Promise((resolve, reject) => {
+    if (blackFriday === true) {
+      // rejected
+      reject(" Sorry for not sending your article on time 😐");
+    } else {
+      // fulfilled
+      resolve(" this is your product as promised 🙂");
+    }
+  });
 }
- reject(' we have an error')
-}, 5000)
+
+//
+async function amazon() {
+  try {
+    let result = await amazonPromise();
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+amazon();
+
+/*
+***** Old way to handle promises *****
+const promise = amazonPromise();
+
+promise.then((msg)=>{
+    console.log(msg);
+});
+promise.catch((msg)=>{
+    console.log(msg);
 });
 
-    return promise;
-
-}
-
-const testAsyncAwait = async () => {
-    try{
-let result = await returnAPromise();
-console.log(result);
-    }catch(error){
-        console.log(error);
-    }
-
-}
-
-testAsyncAwait();
+console.log(promise);
+*/
 ```
 
 ---
@@ -132,6 +139,9 @@ testAsyncAwait();
 
 **Assignment:** [Browser-fetch-JSON](https://classroom.github.com/a/rETodL9i)
 **Solution:** [Browser-fetch-JSON]()
+
+**Assignment:** [DOM-Calculator (optional)](https://classroom.github.com/a/KrgceRDh)
+**Solution:** [DOM-Calculator]()
 
 ---
 
