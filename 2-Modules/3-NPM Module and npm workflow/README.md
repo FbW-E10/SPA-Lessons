@@ -5,7 +5,7 @@
 ## Assignments:
 
 **Assignment:** [Browser-ComingSoon](https://classroom.github.com/a/CJN6NLeO)
-**Solution:** []()
+**Solution:** [Solution](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/2-Modules/Browser-ComingSoon-solution)
 
 ---
 
