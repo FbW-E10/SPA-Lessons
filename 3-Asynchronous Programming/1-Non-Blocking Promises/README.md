@@ -154,6 +154,9 @@ console.log(promise_1);
 **Assignment:** [DOM-GuessColorApp (optional)](https://classroom.github.com/a/G5tWXLKw)
 **Solution:** [DOM-GuessColorApp]()
 
+**Assignment:** [DOM-ToDosApp (optional no promises)](https://classroom.github.com/a/yZivBt_B)
+**Solution:** [DOM-GuessColorApp]()
+
 ---
 
 ### Resources:
