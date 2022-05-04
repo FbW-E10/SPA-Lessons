@@ -149,13 +149,13 @@ console.log(promise_1);
 ## Assignments:
 
 **Assignment:** [Browser-fetch-promises](https://classroom.github.com/a/paCIKHff)
-**Solution:** [Browser-fetch-promises]()
+**Solution:** [Browser-fetch-promises](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/Browser-fetch-promises-solution)
 
 **Assignment:** [DOM-GuessColorApp (optional)](https://classroom.github.com/a/G5tWXLKw)
-**Solution:** [DOM-GuessColorApp]()
+**Solution:** [DOM-GuessColorApp](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/DOM-GuessColorApp-solution)
 
 **Assignment:** [DOM-ToDosApp (optional no promises)](https://classroom.github.com/a/yZivBt_B)
-**Solution:** [DOM-ToDosApp]()
+**Solution:** [DOM-ToDosApp](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/DOM-ToDosApp-solution)
 
 ---
 
