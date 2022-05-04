@@ -137,6 +137,9 @@ console.log(promise);
 
 ## Assignments:
 
+**Assignment:** [Browser-fetch-promises( use try..catch with async..await instead of .then().catch() )](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/Browser-fetch-promises-solution)
+**Solution:** [Browser-fetch-promises]()
+
 **Assignment:** [Browser-fetch-JSON](https://classroom.github.com/a/rETodL9i)
 **Solution:** [Browser-fetch-JSON]()
 
