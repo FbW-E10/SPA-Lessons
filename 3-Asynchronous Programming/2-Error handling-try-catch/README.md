@@ -142,10 +142,10 @@ amazon();
 **Solution:** [Refactoring => Browser-fetch-promises](<https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/Refactoring%20%3D%3E%20Browser-fetch-promises(%20use%20try..catch%20with%20async..await%20instead%20of%20.then().catch()%20)-solution>)
 
 **Assignment:** [Browser-fetch-JSON](https://classroom.github.com/a/rETodL9i)
-**Solution:** [Browser-fetch-JSON]()
+**Solution:** [Browser-fetch-JSON](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/Browser-fetch-JSON-solution)
 
 **Assignment:** [DOM-Calculator (optional)](https://classroom.github.com/a/KrgceRDh)
-**Solution:** [DOM-Calculator]()
+**Solution:** [DOM-Calculator](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/DOM-Calculator-solution)
 
 ---
 
