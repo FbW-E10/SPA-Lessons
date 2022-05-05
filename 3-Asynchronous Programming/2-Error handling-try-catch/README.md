@@ -106,7 +106,7 @@ function amazonPromise() {
   });
 }
 
-//
+// async..await
 async function amazon() {
   try {
     let result = await amazonPromise();
@@ -120,16 +120,17 @@ amazon();
 
 /*
 ***** Old way to handle promises *****
-const promise = amazonPromise();
+function amazon() {
+  const promise = amazonPromise();
 
-promise.then((msg)=>{
-    console.log(msg);
-});
-promise.catch((msg)=>{
-    console.log(msg);
-});
-
-console.log(promise);
+  promise.then((result) => {
+    console.log(result);
+  });
+  promise.catch((error) => {
+    console.log(error);
+  });
+}
+amazon();
 */
 ```
 
