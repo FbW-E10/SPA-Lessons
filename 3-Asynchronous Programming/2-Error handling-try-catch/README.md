@@ -62,7 +62,7 @@ For all built-in errors, the error object has two main properties: `name` `messa
 
 ## ASYNC AWAIT
 
-Promises are an important JS concept - you will see them a lot in modern JS and especially the next course module!
+Promises are an important JS concept.
 
 Remember: promise syntax is clearer than callback hell/"pyramid of doom" syntax.
 
