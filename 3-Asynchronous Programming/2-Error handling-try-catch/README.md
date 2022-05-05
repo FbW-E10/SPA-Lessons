@@ -153,5 +153,6 @@ amazon();
 
 - [Error handling, "try...catch"](https://javascript.info/try-catch)
 - [JavaScript Async Await (youtube)](https://www.youtube.com/watch?v=V_Kr9OSfDeU)
+- [How to fix regeneratorRuntime is not defined](https://dev.to/hulyakarakaya/how-to-fix-regeneratorruntime-is-not-defined-doj)
 
 - [How to use JSON.stringify() and JSON.parse() in JavaScript](https://javascript.plainenglish.io/how-to-use-stringify-and-parse-in-javascript-6b637b571a32#:~:text=as%20a%20pair.-,JSON.,it%20into%20a%20JavaScript%20object.)
