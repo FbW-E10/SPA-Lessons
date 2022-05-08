@@ -10,7 +10,7 @@ React is a JavaScript library that aims to simplify the development of visual in
 
 Developed at Facebook and released to the world in 2013, it drives some of the most widely used apps, powering Facebook and Instagram among countless other applications.
 
-
+**Join a lesson:**
 
 ---
 
