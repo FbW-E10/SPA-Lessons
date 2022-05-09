@@ -5,7 +5,7 @@
 ## Assignments:
 
 **Assignment:** [Browser-Crypto-CurrencyConverter](https://classroom.github.com/a/Tb9mUkzg)
-**Solution:** []()
+**Solution:** [Solution](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/3-Asyncronous%20Programming/Browser-Crypto-CurrencyConverter-solution)
 
 ---
 
