@@ -10,8 +10,8 @@ In general JavaScript is running code in a non-blocking way. This means that cod
 
 1.  [Non-Blocking Promises.](https://github.com/FbW-E10/SPA-Lessons/tree/main/3-Asynchronous%20Programming/1-Non-Blocking%20Promises) 04.05.2022
 2.  [Error handling, "try...catch"](https://github.com/FbW-E10/SPA-Lessons/tree/main/3-Asynchronous%20Programming/2-Error%20handling-try-catch) 05.05.2022
-3.  [Asynchronous Programming and async function.](https://github.com/FbW-E10/SPA-Lessons/tree/main/3-Asynchronous%20Programming/3-Asynchronous%20Programming%20and%20async%20function) 09.05.2022
-4.  [The global fetch() method.](<https://github.com/FbW-E10/SPA-Lessons/tree/main/3-Asynchronous%20Programming/4-The%20global%20fetch()%20method>) 10.05.2022
+3.  [fetch() getting data.](https://github.com/FbW-E10/SPA-Lessons/tree/main/3-Asynchronous%20Programming/3-Asynchronous%20Programming%20and%20async%20function) 09.05.2022
+4.  [fetch() posting data.](<https://github.com/FbW-E10/SPA-Lessons/tree/main/3-Asynchronous%20Programming/4-The%20global%20fetch()%20method>) 10.05.2022
 
 ### Resources:
 
