@@ -67,7 +67,7 @@ Please use the teacher's code to join the lesson
 
 ### Resources:
 
-- [Presentation PDF]()
+- [Presentation PDF](./Boilerplate.pdf)
 
 - [create-react-app](https://github.com/facebook/create-react-app)
 
