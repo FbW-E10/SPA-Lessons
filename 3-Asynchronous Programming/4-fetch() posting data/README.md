@@ -19,4 +19,4 @@
 
 ### Resources:
 
-- []()
+- [CRUD](https://www.codecademy.com/article/what-is-crud)

@@ -20,7 +20,6 @@ let countryName = document.querySelector("#countryName");
 let area = document.querySelector("#area");
 let population = document.querySelector("#population");
 
-
 // the search function================================================
 const handleClick = () => {
   let userInput = document.querySelector("#country").value;
@@ -48,10 +47,17 @@ el.addEventListener("click", handleClick);
 const myFunc = async () => {
   try {
     const response = await fetch(`https://restcountries.com/v2/name/peru`);
+
     const data = await response.json();
     console.log(data);
 
+    // exploring the headers of the response vvvvv
+    console.log(response.headers);
 
+    for (let [key, value] of response.headers) {
+      console.log(`${key} = ${value}`);
+    }
+    // exploring the headers of the response ^^^^^^
   } catch (err) {
     console.log(err);
   }
