@@ -68,6 +68,8 @@ Please use the teacher's code to join the lesson
 ### Resources:
 
 - [Presentation PDF](./Boilerplate.pdf)
+ 
+- [Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
 
 - [create-react-app](https://github.com/facebook/create-react-app)
 
