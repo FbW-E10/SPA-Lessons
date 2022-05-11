@@ -30,7 +30,7 @@ And include them all together inside the website.
 
 - You can use the second parameter of the map function as a `key` to uniquely identify each html item.
 
----
+
 
 ---
 
