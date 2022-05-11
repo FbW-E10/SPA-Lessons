@@ -31,4 +31,4 @@ This is a functional component (called Greeting) written using ES6’s arrow fun
 
 ### Resources:
 
-- []()
+- [Guide to React Component](https://stackabuse.com/guide-to-react-component/)
