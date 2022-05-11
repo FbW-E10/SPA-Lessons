@@ -1,4 +1,4 @@
-# `05` Mapping array to `<li>`
+# Introduction: Thinking in Components and JSX
 
 Using the knowledge you have from the previous example, now lets fix the map function again but starting from an array of objects.
 
