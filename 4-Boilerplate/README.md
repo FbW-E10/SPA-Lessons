@@ -51,8 +51,6 @@ Please use the teacher's code to join the lesson
 
 ## Assignments:
 
-**Assignment:** [SPA-todo-app](https://classroom.github.com/a/-2jR3GwM)
-**Solution:** [SPA-todo-app]()
 
 **Assignment:** [SPA-boilerplate-JSX](https://classroom.github.com/a/PGblxjXn)
 **Solution:** [SPA-boilerplate-JSX]()
