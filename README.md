@@ -14,3 +14,7 @@
 ###### _SPA module test/quiz (20/06/2022) multiple choices_ 1 Day
 
 ###### _projects/workshops_ 8 Days
+
+[React Project Tutorial – Build a Portfolio Website w/ Advanced Animations](https://www.youtube.com/watch?v=bmpI252DmiI)
+
+[Next.js Crash Course](https://www.youtube.com/watch?v=mTz0GXj8NN0&t=244s)
