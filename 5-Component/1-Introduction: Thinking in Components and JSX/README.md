@@ -30,8 +30,6 @@ And include them all together inside the website.
 
 - You can use the second parameter of the map function as a `key` to uniquely identify each html item.
 
-
-
 ---
 
 **Join a lesson:** https://nearpod.com
@@ -60,6 +58,8 @@ Please use the teacher's code to join the lesson
 
 - [Presentation PDF]()
 
+- [React Intro Video](https://www.youtube.com/embed/KgAN353TY-8?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&cc_load_policy=1&fs=0&end=459&hl=en&playsinline=1&start=21&widget_referrer=https%3A%2F%2Fn-ahza5h677qmarosfjgomemaequygzlgq6pyljpq-0lu-script.googleusercontent.com%2F&enablejsapi=1&origin=https%3A%2F%2Fwww.nearpod.com&widgetid=1)
+-
 - [create-react-app](https://github.com/facebook/create-react-app)
 
 - [React in 100 Seconds](https://www.youtube.com/watch?v=Tn6-PIqc4UM)
