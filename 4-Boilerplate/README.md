@@ -53,13 +53,13 @@ Please use the teacher's code to join the lesson
 
 
 **Assignment:** [SPA-boilerplate-JSX](https://classroom.github.com/a/PGblxjXn)
-**Solution:** [SPA-boilerplate-JSX]()
+**Solution:** [SPA-boilerplate-JSX](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/4-Boilerplate/SPA-boilerplate-JSX-solution)
 
 **Assignment:** [SPA-boilerplate-rendering-dynamic-data](https://classroom.github.com/a/rm1sGzqI)
-**Solution:** [SPA-boilerplate-rendering-dynamic-data]()
+**Solution:** [SPA-boilerplate-rendering-dynamic-data](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/4-Boilerplate/SPA-boilerplate-rendering-dynamic-data-solution)
 
 **Assignment:** [SPA-boilerplate-building-layout](https://classroom.github.com/a/FE99x91f)
-**Solution:** [SPA-boilerplate-building-layout]()
+**Solution:** [SPA-boilerplate-building-layout](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/4-Boilerplate/SPA-boilerplate-building-layout-solution)
 
 ---
 
