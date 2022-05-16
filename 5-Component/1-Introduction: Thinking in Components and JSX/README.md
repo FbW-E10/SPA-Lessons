@@ -41,16 +41,16 @@ Please use the teacher's code to join the lesson
 ## Assignments:
 
 **Assignment:** [SPA-component-first-component](https://classroom.github.com/a/q-zYK7pB)
-**Solution:** [SPA-component-first-component]()
+**Solution:** [SPA-component-first-component](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-component-first-component-solution)
 
 **Assignment:** [SPA-component-render-with-functions](https://classroom.github.com/a/REIzBtOV)
-**Solution:** [SPA-component-render-with-functions]()
+**Solution:** [SPA-component-render-with-functions](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-component-render-with-functions-solution)
 
 **Assignment:** [SPA-component-real-component](https://classroom.github.com/a/5P3WYZ8j)
-**Solution:** [SPA-component-real-component]()
+**Solution:** [SPA-component-real-component](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-component-real-component-solution)
 
 **Assignment:** [SPA-component-conditional-rendering](https://classroom.github.com/a/BYkFpsDn)
-**Solution:** [SPA-component-conditional-rendering]()
+**Solution:** [SPA-component-conditional-rendering](https://github.com/DigitalCareerInstitute/SPA-component-state-credit-card.git)
 
 ---
 
