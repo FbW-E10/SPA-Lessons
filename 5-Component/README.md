@@ -19,8 +19,8 @@ This is a functional component (called Greeting) written using ES6’s arrow fun
 **Agenda**
 
 1.  [Introduction: Thinking in Components and JSX]() 12.05.2022
-2.  [Nesting Components]() 16.05.2022
-3.  [Data flow: States]() 17.05.2022
+2.  [Nesting Components - intro to props]() 16.05.2022
+3.  [Data flow: Props & States definitions]() 17.05.2022
 4.  [Data flow: Props & States definitions & difference]() 18.05.2022
 5.  [Interaction]() 19.05.2022
 6.  [Handling Forms]() 23.05.2022
