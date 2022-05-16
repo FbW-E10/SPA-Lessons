@@ -8,7 +8,7 @@ let colorToggle = false;
 
 export default function Header() {
   return (
-  <div>
+ 
       <div
         className={colorToggle ? "dark" : "light"}
         style={{
@@ -18,12 +18,12 @@ export default function Header() {
           height: "70px",
         }}
       >
-        <img src="https://source.unsplash.com/random/50x50" />
+        <img src="https://source.unsplash.com/random/50x50" alt="logo" />
 
         <Nav username={"John"}/>
 
         {x && <DropDown  myToggle={colorToggle} />}
       </div>
-    </div>
+    
   );
 }
