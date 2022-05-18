@@ -134,8 +134,11 @@ Please use the teacher's code to join the lesson
 
 ## Assignments:
 
-**Assignment:** []()
-**Solution:** []()
+**Assignment:** [SPA-calculator](https://classroom.github.com/a/nPglUWBS)
+**Solution:** [SPA-calculator]()
+
+**Assignment:** [SPA-component-trello-copy](https://classroom.github.com/a/0HTeCdBv)
+**Solution:** [SPA-component-trello-copy]()
 
 ---
 
