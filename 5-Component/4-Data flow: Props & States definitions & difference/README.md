@@ -10,9 +10,7 @@ We can use props to pass data between components.
 
 So if a parent component has some data that it wants to pass to a child component, it can use props to do that.
 
-So for example:
-A <ParentComponent /> has "Data A" that it wants to pass to <ChildComponent /> A...
-... and also "Data B" that it wants to pass to <ChildComponent /> B...
+
 
 ... The Parent can use props to give each Child only the data it needs.
 
@@ -68,9 +66,7 @@ Instead, you will have to tell React when it should re-render the UI, to respond
 **What is state?**
 ​
 
-So far, we have only worked with hard-coded data when passing props from a parent to a child component.
-
-HOWEVER, any React component can have a STATE some values that it "remembers" and can update over time.
+Any React component can have a STATE some values that it "remembers" and can update over time.
 
 The state of a React component at a certain time is like a "snapshot", a "photograph" of the STATE of that component at that time.
 
