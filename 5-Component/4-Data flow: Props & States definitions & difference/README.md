@@ -126,9 +126,7 @@ The argument we give useState will be the initial, "starting" value of the varia
 
 ---
 
-**Join a lesson:** https://nearpod.com
 
-Please use the teacher's code to join the lesson
 
 ---
 
@@ -144,6 +142,6 @@ Please use the teacher's code to join the lesson
 
 ### Resources:
 
-- [Presentation PDF]()
+- [React State Vs Props](https://www.youtube.com/watch?v=IYvD9oBCuJI)
 
-- []()
+- [React.js for Beginners — Props and State Explained](https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/#:~:text=Props%20are%20used%20to%20pass,cannot%20be%20accessed%20from%20outside)
