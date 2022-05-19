@@ -9,9 +9,9 @@ const button = document.querySelector("button");
 button.addEventListener("click", doSomething);
 ```
 
-However, we also saw that there is an option to use an event handler inside the HTML element itself.
+However, there is an option to use an event handler inside the HTML element itself.
 
-Although we decided that we should generally use event listeners instead.
+
 ​
 
 ## 1. HTML
@@ -59,4 +59,4 @@ React still has the same types of event as usual!
 ​
 ​
 
-Handling an event in a functional component
+
