@@ -1,9 +1,7 @@
-import React from "react";
-
-export default function User(props) {
+function UserData(props) {
   return (
-    <div>
-      <h3>User Date:</h3>
+    <>
+      <h4>User Date:</h4>
       <div>
         User Name: <span className="text-red">{props.user.name}</span>
       </div>
@@ -13,6 +11,8 @@ export default function User(props) {
       <div>
         User Address:<span className="text-red">{props.user.address}</span>
       </div>
-    </div>
+    </>
   );
 }
+
+export default UserData;
