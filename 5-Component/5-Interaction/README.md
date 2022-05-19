@@ -24,7 +24,7 @@ In React, using this kind of event handler is actually best practice, with a few
 
 ​
 
-## 1. React (JSX)
+## 2. React (JSX)
 
 ​
 
