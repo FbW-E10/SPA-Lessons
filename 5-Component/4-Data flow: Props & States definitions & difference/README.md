@@ -129,10 +129,9 @@ The argument we give useState will be the initial, "starting" value of the varia
 ## Assignments:
 
 **Assignment:** [SPA-calculator](https://classroom.github.com/a/nPglUWBS)
-**Solution:** [SPA-calculator]()
+**Solution:** [SPA-calculator](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-calculator-solution)
 
-**Assignment:** [SPA-component-trello-copy](https://classroom.github.com/a/0HTeCdBv)
-**Solution:** [SPA-component-trello-copy]()
+
 
 ---
 
