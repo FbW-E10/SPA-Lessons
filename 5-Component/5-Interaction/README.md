@@ -59,4 +59,28 @@ React still has the same types of event as usual!
 ​
 ​
 
+---
+
+
+
+---
+
+## Assignments:
+
+**Assignment:** [SPA-events-Iron-Hack](https://classroom.github.com/a/MvzqIcPJ)
+**Solution:** [SPA-events-Iron-Hack]()
+
+**Assignment:** [SPA-events-chronometer](https://classroom.github.com/a/mBvMAHI-)
+**Solution:** [SPA-events-chronometer]()
+
+**Assignment:** [SPA-component-trello-copy](https://classroom.github.com/a/0HTeCdBv)
+**Solution:** [SPA-component-trello-copy]()
+
+---
+
+### Resources:
+
+- [Handling Events](https://reactjs.org/docs/handling-events.html)
+
+- [Class Components vs Functional Components in React](https://www.youtube.com/watch?v=yc6elaGOoGQ)
 
