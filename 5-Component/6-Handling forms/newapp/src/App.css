@@ -1,0 +1,21 @@
+.productCard{
+  width: 200px;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.App{
+  text-align: center;
+}
+.photo{
+  width: 100px;
+  height: 100px;
+}
