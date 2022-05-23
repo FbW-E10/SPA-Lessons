@@ -4,7 +4,7 @@ import Product from './Product'
 export default function ShowProducts(props) {
   return (
     <div className='container'>
-    {props.products.map((item,i)=><Product product={item} key={i}/>)}
+    {props.products.map((item,i)=> <Product sold={props.sold} delete={props.delete} index={i} product={item} key={i}/> )}
     </div>
   )
 }
