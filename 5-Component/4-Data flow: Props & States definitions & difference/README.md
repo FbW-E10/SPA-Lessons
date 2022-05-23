@@ -10,9 +10,7 @@ We can use props to pass data between components.
 
 So if a parent component has some data that it wants to pass to a child component, it can use props to do that.
 
-So for example:
-A <ParentComponent /> has "Data A" that it wants to pass to <ChildComponent /> A...
-... and also "Data B" that it wants to pass to <ChildComponent /> B...
+
 
 ... The Parent can use props to give each Child only the data it needs.
 
@@ -68,9 +66,7 @@ Instead, you will have to tell React when it should re-render the UI, to respond
 **What is state?**
 ​
 
-So far, we have only worked with hard-coded data when passing props from a parent to a child component.
-
-HOWEVER, any React component can have a STATE some values that it "remembers" and can update over time.
+Any React component can have a STATE some values that it "remembers" and can update over time.
 
 The state of a React component at a certain time is like a "snapshot", a "photograph" of the STATE of that component at that time.
 
@@ -126,21 +122,21 @@ The argument we give useState will be the initial, "starting" value of the varia
 
 ---
 
-**Join a lesson:** https://nearpod.com
 
-Please use the teacher's code to join the lesson
 
 ---
 
 ## Assignments:
 
-**Assignment:** []()
-**Solution:** []()
+**Assignment:** [SPA-calculator](https://classroom.github.com/a/nPglUWBS)
+**Solution:** [SPA-calculator](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-calculator-solution)
+
+
 
 ---
 
 ### Resources:
 
-- [Presentation PDF]()
+- [React State Vs Props](https://www.youtube.com/watch?v=IYvD9oBCuJI)
 
-- []()
+- [React.js for Beginners — Props and State Explained](https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/#:~:text=Props%20are%20used%20to%20pass,cannot%20be%20accessed%20from%20outside)

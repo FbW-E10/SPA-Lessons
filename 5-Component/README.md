@@ -18,11 +18,11 @@ This is a functional component (called Greeting) written using ES6’s arrow fun
 
 **Agenda**
 
-1.  [Introduction: Thinking in Components and JSX]() 12.05.2022
-2.  [Nesting Components - intro to props]() 16.05.2022
-3.  [States & Events]() 17.05.2022
-4.  [Data flow: Props & States definitions & difference]() 18.05.2022
-5.  [Interaction]() 19.05.2022
+1.  [Introduction: Thinking in Components and JSX](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/1-Introduction:%20Thinking%20in%20Components%20and%20JSX) 12.05.2022
+2.  [Nesting Components - intro to props](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/2-Props%20%26%20Nesting%20components) 16.05.2022
+3.  [States & Events](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/3-State%20%26%20Events) 17.05.2022
+4.  [Data flow: Props & States definitions & difference](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/4-Data%20flow:%20Props%20%26%20States%20definitions%20%26%20difference) 18.05.2022
+5.  [Interaction](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/5-Interaction) 19.05.2022
 6.  [Handling Forms]() 23.05.2022
 7.  [Styling]() 25.05.2022
 8.  [Basic Use Case: Retrieving data on load]() 30.05.2022
