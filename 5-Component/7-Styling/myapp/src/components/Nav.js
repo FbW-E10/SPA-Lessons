@@ -1,12 +1,13 @@
 import React from "react";
 
-export default function Nav(props) {
+export default function Nav() {
   return (
-    <ul >
-    <i>{props.username}</i>
-      <i>About</i>
-      <i>Projects</i>
-      <i>Contacts</i>
+    <ul>
+      <i>
+        <a href="#About">About</a>
+      </i>
+      <i><a href="#products">Products</a></i>
+      <i><a href="#contacts">Contacts</a></i>
     </ul>
   );
 }

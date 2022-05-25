@@ -1,0 +1,36 @@
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.light {
+  background-color: rgb(209, 209, 209);
+  color: #000;
+}
+
+i {
+  padding: 10px 25px;
+}
+
+.productCard {
+  margin: 5vw;
+  width: 200px;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 5vw;
+}
+
+.App {
+  text-align: center;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+}

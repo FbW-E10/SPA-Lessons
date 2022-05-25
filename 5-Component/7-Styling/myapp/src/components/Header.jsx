@@ -31,11 +31,8 @@ export default function Header() {
     >
       <div onClick={handleToggleMenu}> menu {displayMenu ? "🔺" : "🔻"} </div>
 
-      <FontAwesomeIcon icon="fa-solid fa-motorcycle" />
-      <FontAwesomeIcon icon="fa-solid fa-address-book" />
-
-      <div onClick={handleColorToggle}> Theme</div>
-      <Nav username={"John"} />
+      <div onClick={handleColorToggle}> Theme <FontAwesomeIcon icon="fa-solid fa-circle-half-stroke" /> </div>
+      <Nav/>
 
       {displayMenu && <DropDown myToggle={colorToggle} />}
     </div>

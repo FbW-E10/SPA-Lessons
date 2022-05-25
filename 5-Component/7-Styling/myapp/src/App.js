@@ -1,10 +1,13 @@
-import './App.scss';
+import './App.css';
 import Header from './components/Header';
-import User from './components/User';
+import AddProduct from './components/AddProduct'
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
+import About from './components/About';
+import Contacts from './components/Contacts';
+import Banner from './components/Banner';
 
 library.add(fab, fas);
 
@@ -12,7 +15,10 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <User/>
+      <Banner/>
+      <AddProduct />
+      <About/>
+      <Contacts/>
     </div>
   );
 }
