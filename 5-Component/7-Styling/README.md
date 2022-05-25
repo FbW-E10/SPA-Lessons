@@ -43,7 +43,7 @@ then paste the icon code that you copied.
 ## Assignments:
 
 **Assignment:** [SPA-components-state-lotto](https://classroom.github.com/a/9mmHq-hT)
-**Solution:** [](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-components-state-lotto-solution)
+**Solution:** [SPA-components-state-lotto](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-components-state-lotto-solution)
 
 **Assignment:** [
 SPA-FruitComponent
