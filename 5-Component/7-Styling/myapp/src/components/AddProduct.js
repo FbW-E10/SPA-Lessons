@@ -26,7 +26,8 @@ export default function AddProduct() {
       productName: "MacBook",
       photo: "https://www.notebookcheck.com/uploads/tx_nbc2/air13teaser.jpg",
       price: "900$",
-    },{
+    },
+    {
       productName: "xbox",
       photo:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Xbox-console.jpg/1200px-Xbox-console.jpg",
@@ -48,7 +49,7 @@ export default function AddProduct() {
       productName: "MacBook",
       photo: "https://www.notebookcheck.com/uploads/tx_nbc2/air13teaser.jpg",
       price: "900$",
-    }
+    },
   ]);
 
   const handleChange = (e) => {
@@ -78,10 +79,23 @@ export default function AddProduct() {
     );
     setProducts(updatedProducts);
   };
+  const style1 = {
+    borderRadius: "20px",
+    boxShadow: "3px 5px 8px",
+    padding: "5px",
+    display: "flex",
+    border: "1px solid #000",
+    flexDirection: "column",
+    alignItems: "center",
+    height: "300px",
+    width: "50%",
+    margin: "20px 25%",
+  };
+
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form style={style1} onSubmit={handleSubmit}>
         <h1>Add a product</h1>
         <div>Product name:</div>
         <input type={"text"} name="productName" onChange={handleChange} />
@@ -90,7 +104,7 @@ export default function AddProduct() {
         <div>Price:</div>
         <input type={"text"} name="price" onChange={handleChange} />
         <br />
-        <button>Add</button>
+        <button style={{ width: "50px" }}>Add</button>
       </form>
       <h1>Our products</h1>
       <ShowProducts
