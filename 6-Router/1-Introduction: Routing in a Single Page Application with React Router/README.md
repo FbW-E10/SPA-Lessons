@@ -27,7 +27,7 @@ Then, if you're ready to go, let's start by answering an important question: wha
 
 Routing is the capacity to show different pages to the user. That means the user can move between different parts of an application by entering a URL or clicking on an element.
 
-As you may already know, by default, React comes without routing. And to enable it in our project, we need to add a library named [react-router](https://reacttraining.com/react-router/web/guides/quick-start).
+As you may already know, by default, React comes without routing. And to enable it in our project, we need to add a library named [react-router-dom](https://www.npmjs.com/package/react-router-dom).
 
 To install it, you will have to run the following command in your terminal:
 
