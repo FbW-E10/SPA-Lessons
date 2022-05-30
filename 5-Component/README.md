@@ -1,4 +1,4 @@
-# Components (React) 8 Days
+# Components (React) 9 Days
 
 ![enter image description here](https://maksimivanov.com/static/4342f0b06151a8f35ef66bb20f7d4afa/a9e43/react_component_structure.png)
 
