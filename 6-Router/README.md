@@ -22,4 +22,4 @@ React Router plays an important role to display multiple views in a single page 
 
 ### Resources:
 
-- [React Router V6 Tutorial](https://www.youtube.com/watch?v=UjHT_NKR_gU)
+- [React Router V6 Tutorial](https://www.robinwieruch.de/react-router)
