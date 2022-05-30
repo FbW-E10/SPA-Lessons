@@ -23,10 +23,10 @@ This is a functional component (called Greeting) written using ES6’s arrow fun
 3.  [States & Events](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/3-State%20%26%20Events) 17.05.2022
 4.  [Data flow: Props & States definitions & difference](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/4-Data%20flow:%20Props%20%26%20States%20definitions%20%26%20difference) 18.05.2022
 5.  [Interaction](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/5-Interaction) 19.05.2022
-6.  [Handling Forms]() 23.05.2022
-7.  [Styling]() 25.05.2022
-8.  [Basic Use Case: Retrieving data on load]() 30.05.2022
-9.  [Lifecycle Pitfalls:]() 31.05.2022
+6.  [Handling Forms](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/6-Handling%20forms) 23.05.2022
+7.  [Styling](https://github.com/FbW-E10/SPA-Lessons/tree/main/5-Component/7-Styling) 25.05.2022
+8.  [lifecycle methods]() 30.05.2022
+9.  [useEffect]() 31.05.2022
 
 ---
 
