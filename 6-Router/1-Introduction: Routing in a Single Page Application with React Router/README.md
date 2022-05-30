@@ -229,7 +229,44 @@ export default function Navbar() {
 
 ```
 
-**After importing Link, we have to update our navigation bar a bit. Now, instead of using a tag and href, React Router uses Link and to to, well, be able to switch between pages without reloading it.**
+Let’s add the pages
+
+In your components/Pages/About file, add the following code:
+
+```JSX
+import React from "react";
+
+export default function About() {
+  return <h1>About</h1>;
+}
+
+```
+
+In your components/Pages/Contact file, add the following code:
+
+
+```JSX
+import React from "react";
+
+export default function Contact() {
+  return <h1>Contact</h1>;
+}
+
+```
+
+In your components/Pages/Home file, add the following code:
+
+
+```JSX
+import React from "react";
+
+export default function Home() {
+  return <h1>Home</h1>;
+}
+
+```
+
+
 
 Let's update the Footer component
 
@@ -269,6 +306,11 @@ export default function Footer() {
 }
 
 ```
+
+
+**After importing Link, we have to update our navigation bar a bit. Now, instead of using a tag and href, React Router uses Link and to to, well, be able to switch between pages without reloading it.**
+
+
 
 ## Final Thoughts
 
