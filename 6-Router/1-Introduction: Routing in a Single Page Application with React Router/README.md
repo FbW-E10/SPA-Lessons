@@ -54,7 +54,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <App/>
     </BrowserRouter>
   </React.StrictMode>
 );
@@ -244,7 +244,6 @@ export default function About() {
 
 In your components/Pages/Contact file, add the following code:
 
-
 ```JSX
 import React from "react";
 
@@ -256,7 +255,6 @@ export default function Contact() {
 
 In your components/Pages/Home file, add the following code:
 
-
 ```JSX
 import React from "react";
 
@@ -265,8 +263,6 @@ export default function Home() {
 }
 
 ```
-
-
 
 Let's update the Footer component
 
@@ -307,10 +303,7 @@ export default function Footer() {
 
 ```
 
-
 **After importing Link, we have to update our navigation bar a bit. Now, instead of using a tag and href, React Router uses Link and to to, well, be able to switch between pages without reloading it.**
-
-
 
 ## Final Thoughts
 
