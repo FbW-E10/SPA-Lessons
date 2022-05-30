@@ -321,6 +321,17 @@ React Router is an amazing library that helps us go from a single page to a mult
 Passing route parameters
 
 ---
+## Join a lesson:
+
+
+Please use the teacher's code to join the lesson
+
+**Join the live lesson (nearpod):** https://nearpod.com
+
+**Join the live-coding (codesandbox):**  
+
+---
+
 
 ## Assignments:
 
@@ -333,6 +344,6 @@ Passing route parameters
 ---
 
 ### Resources:
-
+- [Presentation PDF]()
 - [React Router DOM: How to handle routing in web apps](https://blog.logrocket.com/react-router-dom-tutorial-examples)
 - [react-router](https://v5.reactrouter.com/web/guides/quick-start)
