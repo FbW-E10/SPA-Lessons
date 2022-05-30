@@ -188,7 +188,7 @@ Now we ready to go.
 
 Create components folder and and put the following folders and files.
 
-![enter image description here](/components.png)
+![enter image description here](./components.png)
 
 Let's update the Navbar component
 In your **components/Navbar/Navbar** file, add the following code:
