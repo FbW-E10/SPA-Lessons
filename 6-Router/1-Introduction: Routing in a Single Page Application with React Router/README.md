@@ -1,5 +1,7 @@
 # Introduction: Routing in a Single Page Application with React Router
 
+![enter image description here](./ezgif.com-gif-maker.gif)
+
 We are going to cover everything you need to know to get started with React Router.
 
 - Setting up the project
@@ -10,6 +12,10 @@ We are going to cover everything you need to know to get started with React Rout
 - Final Thoughts
 - Next Steps
 - Assignments and resources
+
+
+
+
 
 ## Setting up the project
 
