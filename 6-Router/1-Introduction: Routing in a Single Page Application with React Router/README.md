@@ -345,5 +345,6 @@ Please use the teacher's code to join the lesson
 
 ### Resources:
 - [Presentation PDF]()
+- [React Router V6 Tutorial - Routes](https://www.youtube.com/watch?v=UjHT_NKR_gU)
 - [React Router DOM: How to handle routing in web apps](https://blog.logrocket.com/react-router-dom-tutorial-examples)
 - [react-router](https://v5.reactrouter.com/web/guides/quick-start)
