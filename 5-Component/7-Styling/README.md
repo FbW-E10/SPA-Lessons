@@ -45,10 +45,8 @@ then paste the icon code that you copied.
 **Assignment:** [SPA-components-state-lotto](https://classroom.github.com/a/9mmHq-hT)
 **Solution:** [SPA-components-state-lotto](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-components-state-lotto-solution)
 
-**Assignment:** [
-SPA-FruitComponent
-](https://classroom.github.com/a/w7bx7mX1)
-**Solution:** []()
+**Assignment:** [SPA-FruitComponent](https://classroom.github.com/a/w7bx7mX1)
+**Solution:** [SPA-FruitComponent](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-FruitComponent-solution)
 
 **Bonus** Revisit one of your old react apps (exercises, live codes...) and style it using one or more methods (css, scss, react-bootstrap, reactstrap) then add some icons from fontawesome
 

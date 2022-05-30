@@ -10,7 +10,7 @@
 ## Assignments:
 
 **Assignment:** [SPA-LifeCycle](https://classroom.github.com/a/qsEEwTjc)
-**Solution:** [Solution]()
+**Solution:** [Solution](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/5-Component/SPA-LifeCycle-solutions)
 
 ---
 
