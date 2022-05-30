@@ -13,10 +13,6 @@ We are going to cover everything you need to know to get started with React Rout
 - Next Steps
 - Assignments and resources
 
-
-
-
-
 ## Setting up the project
 
 To be able to follow along, you will need to create a new React app by running the following command in your terminal:
