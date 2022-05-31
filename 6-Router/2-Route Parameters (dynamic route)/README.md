@@ -18,7 +18,7 @@ You can find all the details [👉🏼here👈🏼](https://github.com/FbW-E10/S
 To pass data between pages, we have to update our previous example.
 
 Let's create blogs section
-In your App.js file, add the following code:
+In App.js file, add the following code:
 
 ```JSX
 import "./App.css";
