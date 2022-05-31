@@ -174,7 +174,7 @@ export default function Blogs() {
 
 ```
 
-Now we have awesome blogs card with dynamic links but what is a dynamic link?
+Now we have awesome blogs cards with dynamic links but what is a dynamic link?
 
 ![enter image description here](./blogs.png)
 
