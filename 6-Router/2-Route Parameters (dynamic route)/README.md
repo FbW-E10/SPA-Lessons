@@ -75,7 +75,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <main style={{ height: "80vh" }}>
+      <main style={{ minHeight: "80vh" }}>
         <Routes>
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
@@ -317,7 +317,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <main style={{ height: "80vh" }}>
+      <main style={{ minHeight: "80vh" }}>
         <Routes>
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
@@ -384,7 +384,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <main style={{ height: "80vh" }}>
+      <main style={{ minHeight: "80vh" }}>
         <Routes>
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
