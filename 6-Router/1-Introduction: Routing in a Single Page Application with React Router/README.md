@@ -54,7 +54,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <App/>
     </BrowserRouter>
   </React.StrictMode>
 );
@@ -244,7 +244,6 @@ export default function About() {
 
 In your components/Pages/Contact file, add the following code:
 
-
 ```JSX
 import React from "react";
 
@@ -256,7 +255,6 @@ export default function Contact() {
 
 In your components/Pages/Home file, add the following code:
 
-
 ```JSX
 import React from "react";
 
@@ -265,8 +263,6 @@ export default function Home() {
 }
 
 ```
-
-
 
 Let's update the Footer component
 
@@ -307,10 +303,7 @@ export default function Footer() {
 
 ```
 
-
 **After importing Link, we have to update our navigation bar a bit. Now, instead of using a tag and href, React Router uses Link and to to, well, be able to switch between pages without reloading it.**
-
-
 
 ## Final Thoughts
 
@@ -321,6 +314,17 @@ React Router is an amazing library that helps us go from a single page to a mult
 Passing route parameters
 
 ---
+## Join a lesson:
+
+
+Please use the teacher's code to join the lesson
+
+**Join the live lesson (nearpod):** https://nearpod.com
+
+**Join the live-coding (codesandbox):**  
+
+---
+
 
 ## Assignments:
 
@@ -333,6 +337,7 @@ Passing route parameters
 ---
 
 ### Resources:
-
+- [Presentation PDF]()
+- [React Router V6 Tutorial - Routes](https://www.youtube.com/watch?v=UjHT_NKR_gU)
 - [React Router DOM: How to handle routing in web apps](https://blog.logrocket.com/react-router-dom-tutorial-examples)
 - [react-router](https://v5.reactrouter.com/web/guides/quick-start)

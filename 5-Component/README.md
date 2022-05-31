@@ -1,6 +1,6 @@
 # Components (React) 9 Days
 
-![enter image description here](https://maksimivanov.com/static/4342f0b06151a8f35ef66bb20f7d4afa/a9e43/react_component_structure.png)
+![enter image description here](https://miro.medium.com/max/1400/1*UKf3-68hl72fRRPxfV3BFA.png)
 
 **What are components?**
 

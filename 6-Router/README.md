@@ -16,7 +16,7 @@ React Router plays an important role to display multiple views in a single page 
 **Agenda**
 
 1.  [Introduction: Routing in a Single Page Application with React Router](https://github.com/FbW-E10/SPA-Lessons/tree/main/6-Router/1-Introduction:%20Routing%20in%20a%20Single%20Page%20Application%20with%20React%20Router) 01.06.2022
-2.  [Route Matching Components and Building Navigation]() 02.06.2022
+2.  [Route Parameters (dynamic route)](https://github.com/FbW-E10/SPA-Lessons/tree/main/6-Router/2-Route%20Parameters%20(dynamic%20route)) 02.06.2022
 
 ---
 
