@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <main style={{ height: "80vh" }}>
+      <main style={{ minHeight: "80vh" }}>
         <Routes>
           <Route path="/blogs" element={<div>blogs</div>} />
           <Route path="/about" element={<About />} />
