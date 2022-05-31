@@ -467,6 +467,8 @@ We've done a lot up to this point. And now with router hooks, you can see how ea
 
 ### Resources:
 
+
+- [Array.prototype.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 - [React Router V6 Tutorial - Routes](https://www.youtube.com/watch?v=UjHT_NKR_gU)
 - [React Router DOM: How to handle routing in web apps](https://blog.logrocket.com/react-router-dom-tutorial-examples)
 - [react-router](https://v5.reactrouter.com/web/guides/quick-start)
