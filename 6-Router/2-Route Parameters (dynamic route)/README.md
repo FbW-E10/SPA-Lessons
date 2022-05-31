@@ -6,6 +6,8 @@ In the previous section, we covered everything you need to know to get started w
 
 You can find all the details [👉🏼here👈🏼](https://github.com/FbW-E10/SPA-Lessons/tree/main/6-Router/1-Introduction:%20Routing%20in%20a%20Single%20Page%20Application%20with%20React%20Router)
 
+**In this tutorial, we are going to cover more features in react-router.**
+
 - Update our previous example
 - What is a dynamic link?
 - Passing route parameters
