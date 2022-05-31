@@ -345,7 +345,7 @@ Let’s discuss this strange syntax:
 
 ```
 
-**Params are placeholders in the URL that begin with a colon, like the `:id` param defined in the route in this example. A similar convention is used for matching dynamic segments in other popular web frameworks like Rails and Express.**
+**Params are placeholders in the URL that begin with a colon, like the `:id` param defined in the route in this example. A similar convention is used for matching dynamic segments in other popular web frameworks like Express.**
 
 Now let's create Blog component inside Blogs folder. And import this component and assign it to `<Route path="/blog/:id" element={<div>blog</div>} />`
 
@@ -406,11 +406,11 @@ export default App;
 
 ![enter image description here](./blog.png)
 
-Now if you click on the smart links in the blogs you send to blog page and see the id.
+Now if you click on the smart links in the blogs page you send to blog page and see the id.
 
 You can use this id to target the blog object from `api/blogs.js` array.
 
-Let's use this id to get the blog object and display the data in jsx.
+Let's use this id to get the blog object with the help of [Array.prototype.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) and display the data in jsx.
 
 In the Blog.js file, enter the following:
 
