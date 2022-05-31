@@ -345,7 +345,7 @@ Let’s discuss this strange syntax:
 
 ```
 
-**Params are placeholders in the URL that begin. The route in this example. A similar convention is used for matching dynamic segments in other popular web frameworks like Rails and Express.**
+**Params are placeholders in the URL that begin with a colon, like the `:id` param defined in the route in this example. A similar convention is used for matching dynamic segments in other popular web frameworks like Rails and Express.**
 
 Now let's create Blog component inside Blogs folder. And import this component and assign it to `<Route path="/blog/:id" element={<div>blog</div>} />`
 
