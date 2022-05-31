@@ -321,7 +321,7 @@ Please use the teacher's code to join the lesson
 
 **Join the live lesson (nearpod):** https://nearpod.com
 
-**Join the live-coding (codesandbox):**  
+**Join the live-coding (codesandbox):**  https://codesandbox.io/live/dc1e46140dc
 
 ---
 
