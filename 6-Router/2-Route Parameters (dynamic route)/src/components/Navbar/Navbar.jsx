@@ -13,6 +13,9 @@ export default function Navbar() {
             <Link className="nav-link" to="/">
               Home
             </Link>
+            <Link className="nav-link" to="/blogs">
+              Blogs
+            </Link>
             <Link className="nav-link" to="/about">
               About
             </Link>

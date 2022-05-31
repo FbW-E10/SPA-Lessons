@@ -1,84 +1,21 @@
-# Introduction: Routing in a Single Page Application with React Router
+# Passing Route Parameters - Route Parameters (Dynamic Route)
 
 ![enter image description here](./ezgif.com-gif-maker.gif)
 
-We are going to cover everything you need to know to get started with React Router.
+In the previous section, we covered everything you need to know to get started with React Router.
 
-- Setting up the project
-- What is routing?
-- Setting up the router
-- Rendering routes
-- Using links to switch pages
+You can find all the details [👉🏼here👈🏼](https://github.com/FbW-E10/SPA-Lessons/tree/main/6-Router/1-Introduction:%20Routing%20in%20a%20Single%20Page%20Application%20with%20React%20Router)
+
+- Update our previous example
+- What is a dynamic link?
+- Passing route parameters
 - Final Thoughts
-- Next Steps
-- Assignments and resources
 
-## Setting up the project
+## Passing route parameters
 
-To be able to follow along, you will need to create a new React app by running the following command in your terminal:
+To pass data between pages, we have to update our previous example.
 
-```
-npx create-react-app router-demo
-```
-
-Then, if you're ready to go, let's start by answering an important question: what is routing?
-
-## What is routing?
-
-Routing is the capacity to show different pages to the user. That means the user can move between different parts of an application by entering a URL or clicking on an element.
-
-As you may already know, by default, React comes without routing. And to enable it in our project, we need to add a library named [react-router-dom](https://www.npmjs.com/package/react-router-dom).
-
-To install it, you will have to run the following command in your terminal:
-
-```
-npm install react-router-dom
-```
-
-Now, we've successfully installed our router, let's start using it in the next section 🙂
-
-## Setting up the router
-
-To enable routing in our React app, we first need to import BrowserRouter from react-router-dom.
-
-In the index.js file, enter the following:
-
-```JSX
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App/>
-    </BrowserRouter>
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
-
-
-```
-
-This should hold everything in our app where routing is needed. That means, if we need routing in our entire app, we must wrap our App component with BrowserRouter.
-
-A router alone doesn't do much. So let's add a route in the next section.
-
-## Rendering routes
-
-- Router: The router that keeps the UI in sync with the URL
-- Link: Renders a navigation link
-- Route: Renders a UI component depending on the URL
-
-To render routes, we have to import the Route and Routes component from the router package.
-
+Let's create blogs section
 In your App.js file, add the following code:
 
 ```JSX
@@ -94,8 +31,51 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <main >
+      <main style={{ height: "80vh" }}>
         <Routes>
+          <Route path="/blogs" element={<div>blogs</div>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+
+          <Route path="*" element={<div>404</div>} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+
+```
+
+We just created a new route called blogs. Let's create the component, the page, and provide a link to this new page in the navbar and footer
+
+In your components/Pages create new folder called Blogs and create Blogs.jsx `components/Pages/Blogs/Blogs.jsx`
+
+![enter image description here](./components.png)
+
+Let's import the blogs component to App.jsx and assign it to the blogs route.
+
+```JSX
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import About from "./components/Pages/About/About";
+import Contact from "./components/Pages/Contact/Contact";
+import Home from "./components/Pages/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Blogs from "./components/Pages/Blogs/Blogs";
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <main style={{ height: "80vh" }}>
+        <Routes>
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
@@ -109,93 +89,133 @@ function App() {
 
 export default App;
 
-```
-
-Then, add it where we want to render the content. The Route component has several properties. But here, we just need path and element.
-
-path: the path of the route. Here, we use / to define the path of the home page.
-
-element: will display the content whenever the route is reached.
-
-To get the full power of React Router, we need to have multiple pages and links to play with. We already have pages (components if you want, too), so now let's add some links so we can switch between pages.
-
-## Using links to switch pages
-
-To add links to our project, we will use the React Router again.
-
-But first let's add bootstrap to our project [Get started with Bootstrap CDN links](https://getbootstrap.com/docs/5.2/getting-started/introduction/#cdn-links)
-
-In your public/index.html file, add the following code:
-
-```HTML
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
 
 ```
 
-Now we ready to go.
+In src folder create the following `src/api/blogs.js`
 
-Create components folder and and put the following folders and files.
+`blogs.js` is js file we put our fake api data nothing special and let's enter the following:
 
-![enter image description here](./components.png)
+```JS
+const blogs = [
+  {
+    id: "1234",
+    title: "React Router",
+    description:
+      "React Router is the standard routing library for React. From the docs: “React Router keeps your UI in sync with the URL. It has a simple API with powerful features like lazy code loading, dynamic route matching, and location transition handling built right in.",
+    image: "https://miro.medium.com/max/1200/0*nH627PKQdg4-BCfj",
+  },
 
-Let's update the Navbar component
-In your **components/Navbar/Navbar** file, add the following code:
+  {
+    id: "6789",
+    title: "What is React context?",
+    description:
+      "What is React context? React context allows us to pass down and use (consume) data in whatever component we need in our React app without using props. In other words, React context allows us to share data (state) across our components more easily.",
+    image:
+      "https://dev-yakuza.posstree.com/assets/images/category/react/2021/context-api/context.png",
+  },
 
-**[Navbar Components (Documentation and examples for Bootstrap’s powerful, responsive navigation)](https://getbootstrap.com/docs/5.2/components/navbar/)**
+  {
+    id: "77442",
+    title: "What is NextJs?",
+    description:
+      "Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
+  },
+];
+
+export default blogs;
+
+
+```
+
+We can use the data from `api/blogs.js` to render our awesome blogs card powered by bootstrap.
+
+In the Blogs.jsx file, enter the following:
+
+```JSX
+
+import React from "react";
+import { Link } from "react-router-dom";
+import blogsApi from "../../../api/blogs";
+
+const Card = ({ id, title, image }) => {
+  return (
+    <div class="card">
+      <img height={200} src={image} class="card-img-top" alt="..." />
+      <div class="card-body border-top">
+        <h5 class="card-title ">{title}</h5>
+
+        <Link to={`/blog/${id}`} class="btn btn-primary">
+          READ MORE
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default function Blogs() {
+  return (
+    <div class="container mt-4">
+      <div class="row">
+        {blogsApi.map((blog) => (
+          <div class="col" key={blog.id}>
+            <Card {...blog} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+
+```
+
+Now we have awesome blogs card with dynamic links but what is a dynamic link?
+
+![enter image description here](./blogs.png)
+
+## What is a dynamic link?
+
+Dynamic Links are smart URLs that allow you to send existing and potential users to any location within your website.
+
+Checkout the Card component:
+
+```JSX
+
+const Card = ({ id, title, image }) => {
+  return (
+    <div class="card">
+      <img height={200} src={image} class="card-img-top" alt="..." />
+      <div class="card-body border-top">
+        <h5 class="card-title ">{title}</h5>
+
+        <Link to={`/blog/${id}`} class="btn btn-primary">
+          READ MORE
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+```
+
+Here the dynamic link:
+
+```JSX
+
+<Link to={`/blog/${id}`} class="btn btn-primary">
+  READ MORE
+</Link>
+
+```
+
+But if you click on those dynamic links you send to a 404 page. How we can display the blog details instead of 404 🤔
+
+We can achieve that by passing route parameters. But I forgot to add the links to the navbar and the footer, let’s do this together.
+
+In the Navbar.jsx file, enter the following:
 
 ```JSX
 
@@ -214,6 +234,9 @@ export default function Navbar() {
             <Link className="nav-link" to="/">
               Home
             </Link>
+            <Link className="nav-link" to="/blogs">
+              Blogs
+            </Link>
             <Link className="nav-link" to="/about">
               About
             </Link>
@@ -227,46 +250,10 @@ export default function Navbar() {
   );
 }
 
-```
-
-Let’s add the pages
-
-In your components/Pages/About file, add the following code:
-
-```JSX
-import React from "react";
-
-export default function About() {
-  return <h1>About</h1>;
-}
 
 ```
 
-In your components/Pages/Contact file, add the following code:
-
-```JSX
-import React from "react";
-
-export default function Contact() {
-  return <h1>Contact</h1>;
-}
-
-```
-
-In your components/Pages/Home file, add the following code:
-
-```JSX
-import React from "react";
-
-export default function Home() {
-  return <h1>Home</h1>;
-}
-
-```
-
-Let's update the Footer component
-
-In your **components/Navbar/Footer** file, add the following code:
+In the Footer.jsx file, enter the following:
 
 ```JSX
 
@@ -286,6 +273,12 @@ export default function Footer() {
         </li>
 
         <li className="nav-item">
+          <Link to="/blogs" className="nav-link px-2 text-muted">
+            Blogs
+          </Link>
+        </li>
+
+        <li className="nav-item">
           <Link to="/about" className="nav-link px-2 text-muted">
             About
           </Link>
@@ -301,43 +294,177 @@ export default function Footer() {
   );
 }
 
+
 ```
 
-**After importing Link, we have to update our navigation bar a bit. Now, instead of using a tag and href, React Router uses Link and to to, well, be able to switch between pages without reloading it.**
+## Passing route parameters
+
+In the App.js file, enter the following:
+
+```JSX
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import About from "./components/Pages/About/About";
+import Contact from "./components/Pages/Contact/Contact";
+import Home from "./components/Pages/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Blogs from "./components/Pages/Blogs/Blogs";
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <main style={{ height: "80vh" }}>
+        <Routes>
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog/:id" element={<div>blog</div>} />
+
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<div>404</div>} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+
+```
+
+Let’s discuss this strange syntax:
+
+```JSX
+  <Route path="/blog/:id" element={<div>blog</div>} />
+
+```
+
+**Params are placeholders in the URL that begin. The route in this example. A similar convention is used for matching dynamic segments in other popular web frameworks like Rails and Express.**
+
+Now let's create Blog component inside Blogs folder. And import this component and assign it to `<Route path="/blog/:id" element={<div>blog</div>} />`
+
+In the `components/Blogs/Blog.jsx` file, enter the following:
+
+```JSX
+import React from "react";
+import { useParams } from "react-router-dom";
+
+export default function Blog() {
+  let { id } = useParams();
+  return <div>{id}</div>;
+}
+
+```
+
+We can use the `useParams` hook here to access the dynamic pieces of the URL.
+
+Let's use this new component (Blog.jsx)
+
+In the App.js file, enter the following:
+
+```JSX
+
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import About from "./components/Pages/About/About";
+import Contact from "./components/Pages/Contact/Contact";
+import Home from "./components/Pages/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Blogs from "./components/Pages/Blogs/Blogs";
+import Blog from "./components/Pages/Blogs/Blog";
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <main style={{ height: "80vh" }}>
+        <Routes>
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog/:id" element={<Blog />} />
+
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<div>404</div>} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+![enter image description here](./blog.png)
+
+Now if you click on the smart links in the blogs you send to blog page and see the id.
+
+You can use this id to target the blog object from `api/blogs.js` array.
+
+Let's use this id to get the blog object and display the data in jsx.
+
+In the Blog.js file, enter the following:
+
+```JSX
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import blogsApi from "../../../api/blogs";
+
+export default function Blog() {
+  let { id } = useParams();
+  const [blog, setBlog] = useState();
+
+  useEffect(() => {
+    const findBlog = blogsApi.find((item) => item.id === id);
+    setBlog(findBlog);
+  }, [id]);
+
+  return blog ? (
+    <div class="container mt-4 mb-4">
+      <h1>{blog.title}</h1>
+      <img src={blog.image} className=" m-auto w-50"></img>
+      <p class="mt-4 mb-4">{blog.description}</p>
+    </div>
+  ) : (
+    <div>Loading....</div>
+  );
+}
+
+```
+
+Awesome, now we have dynamics routes
 
 ## Final Thoughts
 
-React Router is an amazing library that helps us go from a single page to a multi-page application feeling with great usability. (Just keep in mind – at the end of the day, it's still a single page app).
-
-## Next Steps
-
-Passing route parameters
+We've done a lot up to this point. And now with router hooks, you can see how easy and elegant they are. They're definitely something to consider in your next project.
 
 ---
+
 ## Join a lesson:
 
-
-Please use the teacher's code to join the lesson
-
-**Join the live lesson (nearpod):** https://nearpod.com
-
-**Join the live-coding (codesandbox):**  
+**Join the live-coding (codesandbox):**
 
 ---
-
 
 ## Assignments:
 
-**Assignment:** [SPA-Router1](https://classroom.github.com/a/ldsTdEow)
-**Solution:** [SPA-Router1]()
+**Assignment:** [SPA-router-dog-finder](https://classroom.github.com/a/9It-6VA2)
+**Solution:** [SPA-router-dog-finder]()
 
-**Assignment:** [SPA-Router-band-landing-page](https://classroom.github.com/a/nx9HM6nJ)
-**Solution:** [SPA-Router-band-landing-page]()
+**Assignment:** [SPA-CreateBlog](https://classroom.github.com/a/bi7vW7Js)
+**Solution:** [SPA-CreateBlog]()
 
 ---
 
 ### Resources:
-- [Presentation PDF]()
+
 - [React Router V6 Tutorial - Routes](https://www.youtube.com/watch?v=UjHT_NKR_gU)
 - [React Router DOM: How to handle routing in web apps](https://blog.logrocket.com/react-router-dom-tutorial-examples)
 - [react-router](https://v5.reactrouter.com/web/guides/quick-start)
