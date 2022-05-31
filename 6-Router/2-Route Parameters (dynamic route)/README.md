@@ -132,7 +132,7 @@ export default blogs;
 
 ```
 
-We can use the data from `api/blogs.js` to render our awesome blogs card powered by bootstrap.
+We can use the data from `api/blogs.js` to render our awesome blogs cards powered by bootstrap.
 
 In the Blogs.jsx file, enter the following:
 
