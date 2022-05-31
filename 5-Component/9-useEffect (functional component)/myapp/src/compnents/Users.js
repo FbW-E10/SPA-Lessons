@@ -30,7 +30,7 @@ export default function Users(props) {
       <input type={"text"} onChange={(e) => setUserInput(e.target.value)} />
       
       {console.log(props.language, userInput)}
-      <h1> {user.username} </h1> <h3> {user.name} </h3> <p> {user.email} </p>{" "}
+      <h1> {user.username} </h1> <h3> {user.name} </h3> <p> {user.email} </p>
       <p> {user.phone} </p> <hr />
     </div>
   );
