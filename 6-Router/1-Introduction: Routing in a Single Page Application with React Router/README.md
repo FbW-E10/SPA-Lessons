@@ -266,7 +266,7 @@ export default function Home() {
 
 Let's update the Footer component
 
-In your **components/Navbar/Footer** file, add the following code:
+In your **components/Footer/Footer** file, add the following code:
 
 ```JSX
 
