@@ -451,7 +451,7 @@ We've done a lot up to this point. And now with router hooks, you can see how ea
 
 ## Join a lesson:
 
-**Join the live-coding (codesandbox):**
+**Join the live-coding (codesandbox):** https://codesandbox.io/live/dc1e46140dc
 
 ---
 
