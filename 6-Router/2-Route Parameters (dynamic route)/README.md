@@ -215,7 +215,7 @@ Here the dynamic link:
 
 But if you click on those dynamic links you send to a 404 page. How we can display the blog details instead of 404 🤔
 
-We can achieve that by passing route parameters. But I forgot to add the links to the navbar and the footer, let’s do this together.
+We can achieve that by passing route parameters. But I forgot to add the blogs link to the navbar and the footer, let’s do this together.
 
 In the Navbar.jsx file, enter the following:
 
