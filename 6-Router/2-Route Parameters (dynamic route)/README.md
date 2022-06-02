@@ -460,8 +460,8 @@ We've done a lot up to this point. And now with router hooks, you can see how ea
 **Assignment:** [SPA-router-dog-finder](https://classroom.github.com/a/9It-6VA2)
 **Solution:** [SPA-router-dog-finder]()
 
-**Assignment:** [SPA-CreateBlog](https://classroom.github.com/a/bi7vW7Js)
-**Solution:** [SPA-CreateBlog]()
+**Assignment:** [SPA-CreateBlog (homework)](https://classroom.github.com/a/bi7vW7Js)
+**Solution:** [SPA-CreateBlog (homework)]()
 
 ---
 
