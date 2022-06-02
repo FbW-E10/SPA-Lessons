@@ -53,7 +53,7 @@ export default App;
 
 ```
 
-We just created a new route called blogs. Let's create the blogs the page component and provide a link to this new page in the navbar and footer
+We just created a new route called blogs. Let's create the blogs page component and provide a link to this new page in the navbar and footer
 
 In your components/Pages create new folder called Blogs and create Blogs.jsx `components/Pages/Blogs/Blogs.jsx`
 
