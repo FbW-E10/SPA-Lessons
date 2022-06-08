@@ -9,16 +9,16 @@ There are not only many external state management libraries (such as the most po
 **Here are some questions you should ask yourself before you decide which state management approach is the best choice for you:**
 
 - Do I even need State Management?
-- State and Props
+- What are State and Props?
 - Which solution is best for my use case?
 
 ## Do I even need State Management
 
 Unfortunately there is no simple answer for that. It depends on how big and complex your application is and how experienced you are in using React.
 
-If your application is not too big and complex but rather small and pretty straightforward, you do not have to make it unnecessarily complicated. For many use cases, you do not need any state management library at all.
+If your application is not too big and complex but rather small and pretty, you do not have to make it unnecessarily complicated. For many use cases, you do not need any state management library at all.
 
-## State and Props
+## What are State and Props?
 
 What do the state and props have in common? They are deterministic and trigger a render update once they change. Deterministic means if your component generates different outputs for the same combination of state and props, you are doing something wrong.
 
