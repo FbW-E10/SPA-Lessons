@@ -59,6 +59,8 @@ useContext API
 
 ### Resources:
 
+- [Learn useContext In 13 Minutes](https://www.youtube.com/watch?v=5LrDIWkK_Bc)
+
 - [An Introduction to State Management in React](https://javascript.plainenglish.io/state-management-in-react-48d16d162442)
 
 - [React Project Tutorial – Build a Portfolio Website w/ Advanced Animations](https://www.youtube.com/watch?v=bmpI252DmiI&t=49s)
