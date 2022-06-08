@@ -12,15 +12,6 @@ The state is just a fancy term for a JavaScript data structure. If a user change
 
 React applications are built using components and they manage their state internally and it works well for applications with few components, but when the application grows bigger, the complexity of managing states shared across components becomes difficult.
 
-Here is a simple example of an e-commerce application, in which the status of multiple components will change when purchasing a product.
-
-- Add that product to the shopping list
-- Add product to customer history
-- trigger count of purchased products
-
-If developers do not have scalability in mind then it is really hard to find out what is happening when something goes wrong. This is why you need state management in your application.
-
-Let’s discuss how to use react state management using react hooks
 
 ---
 
@@ -35,4 +26,4 @@ Let’s discuss how to use react state management using react hooks
 
 ### Resources:
 
-- []()
+- [Redux in 100 Seconds](https://www.youtube.com/watch?v=_shA5Xwe8_4)
