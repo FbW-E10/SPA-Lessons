@@ -26,4 +26,4 @@ React applications are built using components and they manage their state intern
 
 ### Resources:
 
-- []()
+- [Redux in 100 Seconds](https://www.youtube.com/watch?v=_shA5Xwe8_4)
