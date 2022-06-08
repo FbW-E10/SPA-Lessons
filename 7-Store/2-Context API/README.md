@@ -13,6 +13,8 @@ The React Context API is a **state management tool** that allows us to effective
 
 Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
 
+![enter image description here](https://www.carlrippon.com/static/0d1f722d0fe4c2bc4c3d71595dbe67dd/ca682/prop-drilling-v-context.png)
+
 ## How Context works
 
 React.createContext() is all you need. It returns a provider . **Provider** is a component that as it's names suggests provides the _global state_ to its children. It will hold the "store" and be the parent of all the components that might need that store.
