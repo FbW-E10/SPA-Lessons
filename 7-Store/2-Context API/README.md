@@ -109,7 +109,7 @@ reportWebVitals();
 
 we are ready to access the store in any component.
 
-Access within App.js
+Access the store in App.js
 
 - import useContext from react
 - import Context from the store
@@ -139,7 +139,9 @@ function App() {
 export default App;
 ```
 
----
+# Conclusion:
+
+In the end the useContext hook is very simple. All it does is provide a nice interface for consuming context. Next time you are working with context in your application make sure to give useContext a try.
 
 ## Assignments:
 
