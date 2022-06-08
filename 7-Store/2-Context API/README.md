@@ -1,49 +1,143 @@
-# Basic State Management Concepts
+# Context API
 
 ![enter image description here](./todos.png)
 
-State Management is a very complex topic. All Frontend Developers know that. They ask themselves, what is the best approach to share and manage a state between components.
+# State Management in SPAs
 
-There are not only many external state management libraries (such as the most popular Redux) but also React already has built-in state management. It makes the decision even more difficult.
+Is the approach of having one single source of state for the entire app to which all the components can have direct access.
+This approach is meant to reduce the amount of code and confusion that is a part of passing props down to children components and grandchildren components.
 
-**Here are some questions you should ask yourself before you decide which state management approach is the best choice for you:**
+## Context API
 
-- Do I even need State Management?
-- State and Props
-- Which solution is best for my use case?
+The React Context API is a **state management tool** that allows us to effectively produce global state variables and controllers functions that can be passed around. This is the alternative to _"prop drilling"_ or moving props from grandparent to child to parent, and so on. Context is also regarded as an easier, lighter approach to state management than other tools such as **Redux**.
 
-## Do I even need State Management
+Context API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
 
-Unfortunately there is no simple answer for that. It depends on how big and complex your application is and how experienced you are in using React.
+## How Context works
 
-If your application is not too big and complex but rather small and pretty straightforward, you do not have to make it unnecessarily complicated. For many use cases, you do not need any state management library at all.
-
-## State and Props
-
-What do the state and props have in common? They are deterministic and trigger a render update once they change. Deterministic means if your component generates different outputs for the same combination of state and props, you are doing something wrong.
-
-**What is a state?** Let’s take a checkbox as an example. A checkbox has two states- true and false. If a user checks a checkbox, its status will change. This status is called state.
-
-**What are props?** You can think of props as a (kind of) configuration. The props are provided by the parent components. Let’s take our previous example, a checkbox: It can be configurable, for example, it can have a name or a color. These are the props. The props are immutable. This means that the component cannot change it.
-
-## Which solution is best for my use case?
-
-**1 - Redux:**
-Redux is a predictable state container designed to help you write JavaScript apps that behave consistently across client, server, and native environments and are easy to test.
-
-With Redux, the state of your application is kept in a store, and each component can access any state that it needs from this store.
-
-**2 - useContext & useReducer:**
-React also offers its own solution for implementing the state management — without any external libraries such as Redux. This solution is called Context.
-
-Context shares data between a group of components that need the same data. This means that there is no need to manually pass the props to each tree level.
-
-useContext & useReducer Pattern:
-
-is no extra library, everything is based on React
-is very flexible but you have to implement some patterns by yourself
+React.createContext() is all you need. It returns a provider . **Provider** is a component that as it's names suggests provides the _global state_ to its children. It will hold the "store" and be the parent of all the components that might need that store.
+We can then access the provided Store from any child component using a hook called **useContext( )**
 
 ---
+
+## Creating and using Context & Provider
+
+```js
+import React, { useState } from "react";
+import { toast } from "react-toastify";
+
+const Context = React.createContext();
+
+export function ContextProvider(props) {
+  const [todos, setTodos] = useState([]);
+  const [editTodo, setEditTodo] = useState(null);
+  const onAddTodo = (todo) => {
+    setTodos([...todos, todo]);
+    toast("Created new item");
+  };
+  const onDeleteTodo = (index) => {
+    const newTodos = todos.filter((_, i) => i !== index);
+    setTodos(newTodos);
+    toast("Deleted item");
+  };
+
+  const onEditTodo = (index) => {
+    const findTodo = todos.find((_, i) => i === index);
+    setEditTodo({ index, value: findTodo });
+  };
+
+  const onEditHandler = (e) => {
+    e.preventDefault();
+    const newValue = e.target.todo.value;
+    const newTodos = todos.map((item, index) => {
+      if (index === editTodo.index) {
+        return newValue;
+      } else {
+        return item;
+      }
+    });
+    toast("Edited item");
+    setTodos(newTodos);
+    setEditTodo(null);
+  };
+
+  return (
+    <Context.Provider
+      value={{
+        todos,
+        setTodos,
+        editTodo,
+        setEditTodo,
+        onAddTodo,
+        onEditHandler,
+        onEditTodo,
+        onDeleteTodo,
+      }}
+    >
+      {props.children}
+    </Context.Provider>
+  );
+}
+
+export default Context;
+```
+
+**ContextProvider should cover App.js**
+
+```js
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "react-toastify/dist/ReactToastify.css";
+import { ContextProvider } from "././store/context";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <ContextProvider>
+      <App />
+    </ContextProvider>
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+```
+
+we are ready to access the store in any component.
+
+Access within App.js
+
+- import useContext from react
+- import Context from the store
+- pass Context to useContext ` const { editTodo } = useContext(Context);`
+
+```js
+import "./App.css";
+import Form from "./components/Form";
+import ListGroup from "./components/ListGroup";
+import Modal from "./components/Modal";
+import { ToastContainer } from "react-toastify";
+import { useContext } from "react";
+import Context from "./store/context";
+
+function App() {
+  const { editTodo } = useContext(Context);
+  return (
+    <div className="container mt-4 w-20">
+      <Form />
+      <ListGroup />
+      {editTodo && <Modal />}
+      <ToastContainer />
+    </div>
+  );
+}
+
+export default App;
+```
 
 ---
 
