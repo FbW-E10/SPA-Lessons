@@ -18,7 +18,7 @@ React applications are built using components and they manage their state intern
 **Agenda**
 
 1.  [Basic State Management Concepts]() 08.06.2022
-2.  [Advanced Implementation CRUD App with React Hooks & the Context API](https://github.com/FbW-E10/SPA-Lessons/tree/main/7-Store/2-Context%20API) 09.06.2022
+2.  [Advanced Implementation CRUD App with React Hooks & the Context API](https://github.com/FbW-E10/SPA-Lessons/tree/main/7-Store/2-Advanced%20Implementation%20CRUD%20App%20with%20React%20Hooks%20%26%20the%20Context%20API%20) 09.06.2022
 3.  [Context API]() 13.06.2022
 4.  [Enhance the context using a Reducer `useReducer`]() 14.06.2022
 
