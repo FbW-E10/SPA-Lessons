@@ -153,7 +153,7 @@ In the end the useContext hook is very simple. All it does is provide a nice int
 
 ### Resources:
 
-- [An Introduction to State Management in React](https://javascript.plainenglish.io/state-management-in-react-48d16d162442)
+- [Learn Context API (youtube)](https://www.youtube.com/watch?v=5LrDIWkK_Bc)
 
 - [react-toastify](https://www.npmjs.com/package/react-toastify)
 - [react-icons](https://react-icons.github.io/react-icons)
