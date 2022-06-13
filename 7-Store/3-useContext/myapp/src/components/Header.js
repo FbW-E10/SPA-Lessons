@@ -18,7 +18,7 @@ function Header({userProps, themeProps}) {
     <header>
       <h1>React Context</h1>
       <nav>
-        <ThemedButton onClick={handleLogin}>
+        <ThemedButton onClick={handleLogin} theme={themeProps.theme}>
           {userProps.user ? "Logout" : "Login"}
         </ThemedButton>
         <DarkModeToggle themeProps={themeProps} />
