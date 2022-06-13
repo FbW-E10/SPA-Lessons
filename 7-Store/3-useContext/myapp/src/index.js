@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App";
-// import { ThemeProvider } from "./context/theme";
+import { ThemeProvider } from "./context/theme";
+import { UserProvider } from "./context/user";
 import "./index.css";
 
 // ReactDOM.render(
@@ -14,6 +15,10 @@ import "./index.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <UserProvider>
+        <App />
+      </UserProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );
