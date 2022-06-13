@@ -125,7 +125,9 @@ export default function Form() {
 
 ## Assignments:
 
-**Assignment:** 
+**Assignment:** [SPA-STORE-language-setting](https://classroom.github.com/a/n8l4vrz9)
+
+**Assignment:** [login-useContext](https://classroom.github.com/a/sHobciCe)
 
 ---
 
