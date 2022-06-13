@@ -1,17 +1,17 @@
-import React, { useContext } from "react";
-import { ThemeContext } from "../context/theme";
+import React from "react";
 
-function DarkModeToggle() {
-  const { theme, setTheme } = useContext(ThemeContext);
+function DarkModeToggle({themeProps}) {
+ 
+ 
   function handleToggleTheme(e) {
-    setTheme(e.target.checked ? "dark" : "light");
+    themeProps.setTheme(e.target.checked ? "dark" : "light");
   }
   return (
     <label>
       Dark Mode
       <input
         type="checkbox"
-        checked={theme === "dark"}
+        checked={themeProps.theme === "dark"}
         onChange={handleToggleTheme}
       />
     </label>

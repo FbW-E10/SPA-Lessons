@@ -1,17 +1,19 @@
-import React, { useContext } from "react";
-import { ThemeContext } from "../context/theme";
-import { UserProvider } from "../context/user";
+import React, { useState } from "react";
+
 import Header from "./Header";
 import Profile from "./Profile";
 
 function App() {
-  const { theme } = useContext(ThemeContext);
+  const [theme, setTheme] = useState("dark");
+  const [user, setUser] = useState(null);
+
+
   return (
     <main className={theme}>
-      <UserProvider>
-        <Header />
-        <Profile />
-      </UserProvider>
+      
+        <Header userProps={{user, setUser}} themeProps={{theme, setTheme}} />
+        <Profile userProps={{user, setUser}} themeProps={{theme, setTheme}}/>
+      
     </main>
   );
 }
