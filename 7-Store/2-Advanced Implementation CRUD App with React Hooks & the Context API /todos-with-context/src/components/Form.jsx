@@ -3,12 +3,14 @@ import Context from "../store/context";
 
 export default function Form() {
   const { onAddTodo } = useContext(Context);
+
   const onSubmitHandler = (e) => {
     e.preventDefault();
     const todo = e.target.todo.value;
     onAddTodo(todo);
     e.target.reset();
   };
+  
   return (
     <form onSubmit={onSubmitHandler}>
       <div className="input-group mb-3">

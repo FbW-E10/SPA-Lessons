@@ -6,10 +6,12 @@ const Context = React.createContext();
 export function ContextProvider(props) {
   const [todos, setTodos] = useState([]);
   const [editTodo, setEditTodo] = useState(null);
+
   const onAddTodo = (todo) => {
     setTodos([...todos, todo]);
     toast("Created new item");
   };
+  
   const onDeleteTodo = (index) => {
     const newTodos = todos.filter((_, i) => i !== index);
     setTodos(newTodos);
