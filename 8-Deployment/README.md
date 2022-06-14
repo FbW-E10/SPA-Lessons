@@ -18,6 +18,15 @@ Vercel is a platform for deploying the fastest React sites. You can deploy your 
 
 - Monitor: Measure Core Web Vitals from actual devices your visitors are using with Vercel Analytics for Next.js or Gatsby.
 
+
+**Built-in CI/CD for React sites**
+Vercel has integrations for GitHub, GitLab, and Bitbucket to enable CI/CD for your React site with zero configuration. Then, you can run automated tests for performance and reliability on every push. Pull and merge requests are deployed instantly to a unique URL, accessible to your entire team.
+
+
+**Add your custom domain**
+
+After deploying, your new React site will automatically be assigned a .vercel.app suffixed domain. You can then add a Custom Domain on your choice, either from a third-party or purchased through Vercel.
+
 ---
 
 ### Resources:
