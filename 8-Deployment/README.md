@@ -44,7 +44,7 @@ After deploying, your new React site will automatically be assigned a .vercel.ap
 **4- Connect vercel with your GitHub account**
 
 **5- Select your repository**
- ![enter image description here](./srepos.png)
+ ![enter image description here](./repos.png)
  ![enter image description here](./select-repo.png)
  
  **6- Deploy**
