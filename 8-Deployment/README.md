@@ -4,11 +4,11 @@
 
 **The Easiest Way to Deploy a React App**
 
-Would you believe that you can deploy your React app to the internet from scratch in minutes? That may sound like the tagline for a too-good-to-be-true advertisement but it is really possible with Vercel
+Would you believe that you can deploy your React app to the internet from scratch in minutes? That may sound like the tagline for a too-good-to-be-true advertisement but it is really possible with Vercel.
 
 **Deploy React to Vercel**
 
-Vercel is a platform for deploying the fastest React sites. You can deploy your site with zero configuration to the best frontend infrastructure.
+Vercel is a platform for deploying the fastest React sites. You can deploy your site with zero configuration to the best frontend infrastructure. **With Vercel you can deploy up to five apps for free**.
 
 - Develop: Build React sites that connect to your favorite APIs, databases, and content management systems.
 
