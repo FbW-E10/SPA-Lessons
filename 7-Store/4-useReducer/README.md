@@ -91,7 +91,7 @@ which will update the state according to the logic in the "alpha" condition.
 ## Assignments:
 
 **Assignment:** [SPA-Store-UseReducerBoating](https://classroom.github.com/a/dhu-rU61)
-
+**solution:** [link](https://github.com/FbW-E10/SPA-Assignments-Solutions/tree/main/7-Store/SPA-Store-UseReducerBoating-solution)
 ---
 
 ### Resources:
