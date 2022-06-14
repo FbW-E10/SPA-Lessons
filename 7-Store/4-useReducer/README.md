@@ -90,7 +90,7 @@ which will update the state according to the logic in the "alpha" condition.
 
 ## Assignments:
 
-**Assignment:**
+**Assignment:** [SPA-Store-UseReducerBoating](https://classroom.github.com/a/dhu-rU61)
 
 ---
 
