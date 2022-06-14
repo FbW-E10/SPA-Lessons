@@ -27,6 +27,15 @@ Vercel has integrations for GitHub, GitLab, and Bitbucket to enable CI/CD for yo
 
 After deploying, your new React site will automatically be assigned a .vercel.app suffixed domain. You can then add a Custom Domain on your choice, either from a third-party or purchased through Vercel.
 
+## How to Deploy a React Site with Vercel
+- Upload your app to a GitHub repository 
+
+
+## Upload your app to a GitHub repository 
+
+Create GitHub repository in your GitHub account and push your code to it
+![enter image description here](./create-repo.png)
+
 ---
 
 ### Resources:
