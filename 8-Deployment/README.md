@@ -17,6 +17,7 @@ Vercel is a platform for deploying the fastest React sites. You can deploy your 
 
 
 **Built-in CI/CD for React sites**
+
 Vercel has integrations for GitHub, GitLab, and Bitbucket to enable CI/CD for your React site with zero configuration. Then, you can run automated tests for performance and reliability on every push. Pull and merge requests are deployed instantly to a unique URL, accessible to your entire team.
 
 
@@ -41,6 +42,7 @@ After deploying, your new React site will automatically be assigned a .vercel.ap
 **4- Connect vercel with your GitHub account**
 
 **5- Select your repository**
+
  ![enter image description here](./repos.png)
  ![enter image description here](./select-repo.png)
  
