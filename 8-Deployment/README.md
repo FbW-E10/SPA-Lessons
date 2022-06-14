@@ -2,9 +2,6 @@
 
 ![enter image description here](https://blog.inedo.com/hs-fs/hubfs/Deployment%20Pipeline.jpg?width=2515&name=Deployment%20Pipeline.jpg)
 
-**The Easiest Way to Deploy a React App**
-
-Would you believe that you can deploy your React app to the internet from scratch in minutes? That may sound like the tagline for a too-good-to-be-true advertisement but it is really possible with Vercel.
 
 **Deploy React to Vercel**
 
