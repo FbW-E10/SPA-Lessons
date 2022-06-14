@@ -13,7 +13,9 @@
 
 ###### _SPA module test/quiz (20/06/2022) multiple choices_ 1 Day
 
-###### _projects/workshops_ 8 Days
+### Projects 8 Days
+###### - Portfolio 3 Days (21.06.2022 - 23.06.2022)
+###### - Group project 5 Days (27.06.2022 - 04.07.2022): [miro](https://miro.com/welcomeonboard/ODJBOUcwYmxmNk9GeTVtVkRBWUppbUZIRXY5aGlCWWtJMWZ5NDdkU2NheTg3UmpmWTRnYTl1enZhenlZQmxlMXwzMDc0NDU3MzY1MTExNjkxNDgw?share_link_id=511324735472)
 
 [React Project Tutorial – Build a Portfolio Website w/ Advanced Animations](https://www.youtube.com/watch?v=bmpI252DmiI)
 
