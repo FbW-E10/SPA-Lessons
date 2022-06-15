@@ -5,7 +5,7 @@
 
 **Deploy React to Vercel**
 
-Vercel is a platform for deploying the fastest React sites. You can deploy your site with zero configuration to the best frontend infrastructure. **With Vercel you can deploy up to five apps for free**.
+Vercel is a platform for deploying the fastest React sites. You can deploy your site with zero configuration to the best frontend infrastructure. 
 
 - Develop: Build React sites that connect to your favorite APIs, databases, and content management systems.
 
